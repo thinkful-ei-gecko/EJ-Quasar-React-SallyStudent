@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(255,255,255);
+    color: black;
+}
+
+h1 {
+    font-size: 70px;
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Amatic SC', cursive;
+    padding: 8px;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    list-style: none;
+    padding: 0;
+
+}
+
+li {
+    font-size: 16px;
+    padding: 4px;
+    list-style-type: none;
+}
+
+h2 {
+    border: 2px solid grey;
+    border-radius: 5px;
+    text-align: center;
+    padding: 14px 16px;
+    font-family: 'EB Garamond', serif;
+    background-color: rgba(199,199,199, 0.75);
+}
+
