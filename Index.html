@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sally Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id='root'></div>
+
+
+    <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
+    <script type="text/babel">
+            function App(){
+                return (
+                    <main>
+                        <header>
+                            <div>
+                                <h1>Sally Student Resume</h1>
+                                <h2>Contact Information</h2>
+                                <ul>
+                                <li>Sally Silly</li>
+                                <li>Email me at <a href="mailto:sally@gmail.com?subject=Sally Student Resume">sally@gmail.com</a></li>
+                                <li>Phone Number: <address>424-549-6281</address></li>
+                                <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXgxt9ln1P2PY_Hi2Wg2sILpOVOwnJDECIyxCgf0NfO3VHNf-Yfw" alt="Image of Sally Silly" width="100px" height="100px"/></li>
+                                </ul>
+                            </div>
+                        </header>
+                    </main>
+                );
+            }
+
+            ReactDOM.render(
+                <App />,
+                document.querySelector('#root')
+            );
+    </script>
+</body>
+
+</html>
