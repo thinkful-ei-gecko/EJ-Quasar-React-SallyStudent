@@ -20,49 +20,50 @@
     <script type="text/babel">
             function App(){
                 return (
-
+                <main>
                     <header>
                          <div>
                             <h1>Sally Student Resume</h1>
                             <h2>Contact Information</h2>
                             <ul>
-                            <li>Sally Silly</li>
-                            <li>Email me at <a href="mailto:sally@gmail.com?subject=Sally Student Resume">sally@gmail.com</a></li>
-                            <li>Phone Number: <address>424-549-6281</address></li>
-                            <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXgxt9ln1P2PY_Hi2Wg2sILpOVOwnJDECIyxCgf0NfO3VHNf-Yfw" alt="Image of Sally Silly" width="100px" height="100px"/></li>
+                                <li>Sally Silly</li>
+                                <li>Email me at <a href="mailto:sally@gmail.com?subject=Sally Student Resume">sally@gmail.com</a></li>
+                                <li>Phone Number: <address>424-549-6281</address></li>
+                                <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXgxt9ln1P2PY_Hi2Wg2sILpOVOwnJDECIyxCgf0NfO3VHNf-Yfw" alt="Image of Sally Silly" width="100px" height="100px"/></li>
                             </ul>
                         </div>
                     </header>
 
-                    <main>
-                        <section class="section__education">
-                            <h2>Education</h2>
+                    <section className="section__education">
+                        <h2>Education</h2>
+                        <ul>
+                            <li>BA Physics 2013, UVA</li>
+                            <li>MA PHysics, 2016, MIT</li>
+                        </ul>
+                    </section>
+                    <section className="section__employment">
+                        <h2>Employment</h2>
+                        <li>USC
                             <ul>
-                                <li>BA Physics 2013, UVA</li>
-                                <li>MA PHysics, 2016, MIT</li>
+                                <li>Professor</li>
+                                <li>June 2012 - June 2014</li>
+                                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
                             </ul>
-                        </section>
-                        <section class="section__employment">
-                            <h2>Employment</h2>
-                            <li>USC
-                                <ul>
-                                    <li>Professor</li>
-                                    <li>June 2012 - June 2014</li>
-                                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                                </ul>
-                            </li>
+                        </li>
 
-                            <li>NASA
-                                <ul>
-                                    <li>Electrical Engineer</li>
-                                    <li>June 2014 - September 2016</li>
-                                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                                </ul>
-                            </li>
-                        </section>
-                    </main>
+                        <li>NASA
+                            <ul>
+                                <li>Electrical Engineer</li>
+                                <li>June 2014 - September 2016</li>
+                                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                            </ul>
+                        </li>
+                    </section>
 
+                </main>
+                   
 
+             
                 );
             }
 
@@ -72,5 +73,4 @@
             );
     </script>
 </body>
-
 </html>
